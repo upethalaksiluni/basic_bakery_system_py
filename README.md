@@ -1,39 +1,90 @@
-# Sweet Delights Bakery Management System
+🍰 Sweet Delights Bakery Management System
+📌 Project Overview
 
-## Project Overview
-Sweet Delights Bakery Management System is a **Python console-based application** that simulates a real-world bakery management environment. It supports **Admin and Customer modes**, enabling efficient product management, order handling, and sales tracking. The project is designed using **object-oriented programming (OOP)** principles and demonstrates practical Python programming skills.
+Sweet Delights Bakery Management System is a Python console-based application that simulates a real-world bakery environment. It provides Admin and Customer modes, allowing efficient product management, order processing, and sales tracking. Developed using Object-Oriented Programming (OOP) principles, this project demonstrates practical Python programming skills and a structured approach to application design.
 
-## Features
+✨ Features
+🧑 Customer Mode
 
-### Customer Mode:
-- Browse all bakery products
-- Browse products by category (Cakes, Pastries, Bread, Cookies, Drinks)
-- Add items to cart and remove items from cart
-- View current order with subtotal, tax, discount, and total
-- Checkout and generate detailed receipts
-- Register as a customer with loyalty points tracking
+Browse all bakery products with detailed information
 
-### Admin Mode:
-- Add, remove, and update products
-- Update product stock and prices
-- View all products and low stock alerts
-- View daily sales reports
-- Display most sold items
+Browse products by category: Cakes, Pastries, Bread, Cookies, Drinks
 
-## Key Highlights
-- Unique IDs for products and orders
-- Menu-driven interface for ease of use
-- Tax and discount calculation
-- Sales tracking and reporting
-- Loyalty points system for customers
+Add items to cart or remove them
 
-## Skills & Technologies Used
-- **Language:** Python 3.x
-- **Concepts:** Object-Oriented Programming (OOP), Lists, Dictionaries
-- **Functionalities:** Inventory Management, Order & Cart System, Sales Report, Receipt Generation
-- **Additional:** Console-based application, role-based access
+View current order summary with subtotal, tax, discount, and total
 
-## How to Run
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/sweet-delights-bakery.git
+Checkout and generate detailed receipts
+
+Register as a customer and track loyalty points
+
+👩‍💼 Admin Mode
+
+Add, remove, and update bakery products
+
+Update product stock and prices
+
+View all products and receive low stock alerts
+
+Generate daily sales reports
+
+Display most sold items for inventory insights
+
+🏆 Key Highlights
+
+Unique IDs for products and orders
+
+Easy-to-use menu-driven interface
+
+Accurate tax and discount calculations
+
+Comprehensive sales tracking and reporting
+
+Built-in loyalty points system for customers
+
+💻 Skills & Technologies Used
+
+Language: Python 3.x
+
+Programming Concepts: Object-Oriented Programming (OOP), Lists, Dictionaries
+
+Core Functionalities: Inventory Management, Order & Cart System, Sales Reporting, Receipt Generation
+
+Additional Features: Console-based application, role-based access control
+
+🚀 How to Run
+
+Clone the repository:
+
+git clone https://github.com/upethalaksiluni/basic_bakery_system_py.git
+
+
+Navigate to the project folder:
+
+cd bakery_system
+
+
+Run the application:
+
+python bakery_system.py
+
+
+Follow the menu prompts to explore Customer or Admin modes.
+
+📂 Folder Structure
+basic_bakery_system_py/
+│
+├── main.py               # Main application file
+├── README.md             # Project documentation
+├── bakery_system.py 
+└── .idea/                # IDE configuration files (optional)
+
+💡 Future Enhancements
+
+GUI-based interface using Tkinter or PyQt
+
+Persistent storage with SQLite/MySQL
+
+Online ordering and payment integration
+
+Enhanced reporting with charts and graphs
